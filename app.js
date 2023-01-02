@@ -1,13 +1,19 @@
-let amIFat = false;
-console.log(amIFat);
+const mon="mon";
+const tue="tue";
+const wed="wed";
+const thu="thu";
+const sat="sat";
+const sun="sun";
 
-amIFat = true;
-console.log(amIFat);
+const dayOfWeek = [mon, tue, wed, thu, sat];
 
-amIFat = null;
-console.log(amIFat);
+const nonsense = [1, 2, "hello", false, null, true, undefined, ""];
+console.log(dayOfWeek);
+console.log(nonsense);
+console.log(nonsense[2])
 
-let someting; //값을 따로 주지 않음
-console.log(someting)//undefined 출력
+dayOfWeek.push("sunday")
+console.log(dayOfWeek)
+
 
 //브라우저의 콘솔 창에서 결과를 확인할 수 있음
